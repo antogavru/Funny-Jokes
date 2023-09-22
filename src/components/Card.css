@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  flex: 0 0 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  margin: 2%;
+  background-color: #89d4cf;
+  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 100%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  color: black;
+  letter-spacing: 0.5px;
+}
